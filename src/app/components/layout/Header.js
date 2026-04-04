@@ -24,9 +24,6 @@ export default function Header({ isSidebarOpen, onToggleSidebar }) {
           <h1 className="text-xl font-bold borondeo-header-title">
             B O R O N D E O
           </h1>
-        </div>
-
-        <div className="flex items-center">
           <Image
             src={logo}
             width={80}
