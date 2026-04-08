@@ -26,10 +26,11 @@ Next.js includes its own build system (Turbopack/Webpack) and doesn't require Vi
 ### Layout Structure
 
 **Desktop View (≥768px):**
+
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Header (Fixed)                        │
-│  [Borondeo]       [Nav Links]          [Menu Toggle]    │
+│                   Header (Fixed)                        │
+│[Borondeo][Logo]   [Nav Links]          [Menu Toggle]    │
 ├─────────────────────────────────────────┬───────────────┤
 │                                         │               │
 │                                         │   Sidebar     │
@@ -40,15 +41,16 @@ Next.js includes its own build system (Turbopack/Webpack) and doesn't require Vi
 │                                         │   - Item 3    │
 │                                         │               │
 ├─────────────────────────────────────────┴───────────────┤
-│              Footer (Minimal, Fixed)                     │
+│              Footer (Minimal, Fixed)                    │
 └─────────────────────────────────────────────────────────┘
 ```
 
 **Mobile View (<768px):**
+
 ```
 ┌─────────────────────────────────────────┐
 │           Header (Fixed)                │
-│  [Borondeo]              [☰ Burger]     │
+│  [Borondeo][Logo]        [☰ Burger]     │
 ├─────────────────────────────────────────┤
 │                                         │
 │                                         │
