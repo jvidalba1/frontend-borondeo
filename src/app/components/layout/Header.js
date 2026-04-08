@@ -24,12 +24,7 @@ export default function Header({ isSidebarOpen, onToggleSidebar }) {
           <h1 className="text-xl font-bold borondeo-header-title">
             B O R O N D E O
           </h1>
-          <Image
-            src={logo}
-            width={80}
-            height={80}
-            alt="Picture of the author"
-          />
+          <Image src={logo} width={80} height={80} alt="logo" />
         </div>
         {/* Navigation Links - Hidden on mobile */}
         {/* <nav className="hidden md:flex items-center space-x-2">
